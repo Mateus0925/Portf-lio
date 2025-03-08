@@ -27,7 +27,7 @@ header {
     align-items: center;
     color: white;
     justify-content: space-between;
-    padding:2rem 8.625rem;
+    padding: 2rem 8.625rem;
 }
 
 .menu {
@@ -40,7 +40,7 @@ header {
     font-weight: 300;
 }
 
-.botao{
+.botao {
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -54,12 +54,12 @@ hr {
 }
 
 
-main{
+main {
     margin-left: 8.625rem;
     margin-right: 8.625rem;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,4 +132,53 @@ section{
 
 #botao h3 {
     font-weight: 500;
+}
+
+.bloco-2 {
+    background-color: #8E8E8E40;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 11rem;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.sub-bloco-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-right: 10rem;
+    margin-bottom: 8rem;
+}
+
+.subtitulo {
+    font-size: 1rem;
+    color: white;
+    max-width: 35rem;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+.subtitulo h1 {
+    font-weight: 400;
+}
+
+.subtitulo span {
+    color: #8E5AE7;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    max-width: 26rem;
+    width: 100%;
+    height: auto;
 }

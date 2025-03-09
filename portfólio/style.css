@@ -334,6 +334,14 @@ div[seven], div[nine]{
     width: 100%;
     height: auto;
     margin-bottom: 2rem;
+    transition: 0.3s;
+}
+
+.contato img:hover{
+    transition: 0.3s;
+    max-width:10.5rem;
+    width: 100%;
+    height: auto;
 }
 
 .contato h2{

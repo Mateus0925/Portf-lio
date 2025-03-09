@@ -4,7 +4,7 @@ function copiarTexto(elemento) {
     const tempInput = document.createElement('input');
     document.body.appendChild(tempInput);
     tempInput.value = texto;  // Define o valor do input para o texto a ser copiado
-    tempInput.select();  // Seleciona o texto
+    tempInput.select(); 
     document.execCommand('copy');
     // Remove o input temporário
     document.body.removeChild(tempInput);

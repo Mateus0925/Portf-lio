@@ -301,6 +301,7 @@ div[five] img {
     font-size: 1rem;
     font-weight: 300;
     transition: 0.3s;
+    border: none;
 }
 
 div[six], div[eight]{
@@ -309,4 +310,34 @@ div[six], div[eight]{
 
 div[seven], div[nine]{
     margin-left: 7rem;
+}
+
+.bloco-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7.5rem;
+    color: white;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    cursor: pointer;
+}
+
+.contato img {
+    max-width: 10rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.contato h2{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #8E5AE7;
 }

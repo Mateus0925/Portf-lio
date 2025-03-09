@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    background-color:#e4f4e4 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family:"Karla", serif;
+}
+
+#bloco1{
+    background-color: white;
+    height: 800px;
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(41, 35, 35, 0.295);
+}
+
+#bloco1 h2{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#bloco2{
+    display: flexbox;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#bloco3{
+    display: flex;
+    flex-direction: row;
+}
+
+.borda{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding:10px 130px;
+    padding-left: 0%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+#bloco4 input{
+    width: 493px;
+}
+.nome input{
+    margin-right: 20px;
+}
+.option-container{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.option {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 138px;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+.option span {
+    margin-left: 8px;
+    color: #888;
+}
+
+.option input{
+    margin-top: 0%;
+}
+
+.option input:checked + span {
+    font-weight: bold;
+    color: black;
+}
+
+.option:hover {
+    border-color: black;
+}
+
+
+#bloco5{
+    display: flex;
+    flex-direction:column;
+}
+
+#bloco5 p{
+    margin-bottom: 10px;
+}
+div[one]{
+    display: flex;
+    flex-direction:row;
+}
+
+p{
+    margin: 0;
+}
+
+#bloco6{
+    width: 493px;
+}
+
+.borda_mensagem{
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding:10px 13px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 600px;
+    height: 200px;
+}
+
+#bloco7{
+    display: flex;
+    flex-direction: row;
+}
+
+#botao{
+    margin-top: 40px;
+    background-color: hsl(169, 82%, 27%);
+    width:640px; 
+    height: 50px; 
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#botao:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: hsl(169, 35%, 46%);
+    box-shadow: 0 2px 8px rgba(41, 35, 35, 0.295);
+}
+
+#botao:active{
+    transition: 0.5s;
+    transform: translate(0px, 2px);
+}

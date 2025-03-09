@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Young Serif", serif;
+}
+
+#bloco1{
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 1700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#bloco1 img {
+    width: 620px;
+    margin:40px;
+    border-radius: 10px;
+}
+
+.espacamento{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#titulo{
+    font-size: 40px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+.subtitulo{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    margin-left: 40px;
+}
+
+#bloco2{
+    margin-top: 20px;
+    width: 620px;
+    height: 190px;
+    background-color: hsl(330, 100%, 98%);
+    color: hsl(332, 51%, 32%);
+    border-radius: 10px;
+    font-family: "Outfit", serif;
+    margin-bottom: 20px;
+}
+
+#bloco2 h3{
+    margin-top: 30px;
+}
+
+#bloco2 li{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#bloco2 strong{
+    margin-left: 5px;
+}
+
+.listas_titulo{
+    font-size: 30px;
+    margin-left: 40px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 0%;
+}
+
+.listas{
+    margin-left: 25px;
+    margin-top: 0%;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: "Outfit", serif;
+}
+
+.listas li{
+    margin-bottom: 10px;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2); 
+    margin: 20px 0;
+}
+
+div[one]{
+    display: flex;
+    flex-direction: column;
+}
+
+.nutrition-table{
+    width: 620px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+th{
+    padding-bottom: 10px;
+    padding-left: 40px;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+    font-weight: 500;
+}
+
+td{
+    padding-right: 60px;
+    padding-bottom: 10px;
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    color:hsl(14, 45%, 36%) ;
+    font-family: "Outfit", serif;
+    font-weight: 800;
+}
+
+.nutrition-table tr{
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.2);
+}

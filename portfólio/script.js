@@ -23,3 +23,24 @@ textosParaCopiar.forEach(function (texto) {
         copiarTexto(texto);
     });
 });
+
+
+
+document.getElementById("link_sobre").addEventListener("click", function(x){
+    x.preventDefault();
+    document.getElementById("sobre").scrollIntoView({ behavior: "smooth" })
+
+})
+
+document.getElementById("link_projetos").addEventListener("click", function(x){
+    x.preventDefault();
+    document.getElementById("projetos").scrollIntoView({ behavior: "smooth" })
+
+})
+
+document.getElementById("link_projetos").addEventListener("click", function(x){
+    x.preventDefault();
+    document.getElementById("projetos").scrollIntoView({ behavior: "smooth" })
+
+})
+
